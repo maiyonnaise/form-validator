@@ -1,0 +1,89 @@
+body,
+.container,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(245, 245, 188, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  background-color: lemonchiffon;
+  margin-top: 5em;
+  padding: 0.75em 1.5em;
+  border-radius: 7px;
+
+  max-width: 700px;
+}
+form {
+  gap: 20px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 5px;
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.25rem;
+}
+
+.form-control input {
+  margin: 5px 0;
+  width: 300px;
+  height: 35px;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
+.form-control small {
+  width: 400px;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+button {
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 0.75em 0;
+  padding: 0.5em 1.5em;
+  background-color: rgb(2, 0, 36);
+  color: lemonchiffon;
+  border: none;
+  border-radius: 5px;
+}
+button:hover,
+button:focus {
+  background-color: aqua;
+  color: black;
+}
+
+/* ultility class  */
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+.success {
+  color: green;
+}
+.error {
+  color: #660a0a;
+}

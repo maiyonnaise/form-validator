@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- gg font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- css style  -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- js  -->
+
+    <title>Register form!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register here!</h1>
+      <form id="form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" autocomplete="off" />
+          <small id="username-alert" class="hidden"></small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" autocomplete="off" />
+          <small id="email-alert" class="hidden"></small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="text" id="password" autocomplete="off" />
+          <small id="password-alert" class="hidden"></small>
+        </div>
+        <div class="form-control">
+          <label for="password-2">Confirm Password</label>
+          <input type="text" id="password-2" autocomplete="off" />
+          <small id="password2-alert" class="hidden"></small>
+        </div>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
