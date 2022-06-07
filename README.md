@@ -1,4 +1,4 @@
-re doing the project to strenthen my skills
+
 
 1. checkRequire for each input
 
